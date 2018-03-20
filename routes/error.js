@@ -1,4 +1,5 @@
 function myError(errorMsg){
+    
     let newErr = new Error(errorMsg);
     this.name = newErr.name;
     this.message = newErr.message;
